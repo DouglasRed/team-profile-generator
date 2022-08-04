@@ -13,7 +13,7 @@
 
 ### Motivation for creating this project
 
-I wanted to test my skills with using Test Driven Development (TDD) to create an apllication that would help managers identify simple teams and create some what of an one layer organization chart.
+I wanted to test my skills with using Test Driven Development (TDD) to create an apllication that would help managers layout their teams and create some what of an one layer organization chart.
 
 ### What problem does this solve?
 
@@ -27,7 +27,7 @@ In order to download my code you will have to clone my repo and install inquire 
 
 This will help any small team list their employees for visibility purposes. Working virtually can take its toll on us including forgetting about the people that work with us.
 
-![Alt text]("./lib/assets/images/team-profile.jpg)
+![Alt text](./lib/assets/images/team-profile.jpg)
 
 ## Contact Me
 
