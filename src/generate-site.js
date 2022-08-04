@@ -6,15 +6,16 @@ const generateTeam = (team) => {
   const generateManager = (manager) => {
     console.log(manager);
     let managerHtml = `
-    <div class= "card" style="width: 180px;">
+    <div class= "card" style="width: 18rem;">
       <div class="card-header">
       ${manager.name} </br>
-      <i class="fas" fa-mug-hot"></i>Manager</div>
-      <ul class="list-group-flush">
-      <li class="list-group-item">ID:${manager.employeeId}</li>
-      <li class="list-group-item">Email:<span id="email"><a href="mailto:${manager.email}">${manager.email}</li>
-      <li class="list-group-item">Office Number:${manager.officeNumber}</li>
-      <ul>
+      <i class="fas"></i>Manager <ion-icon name="cafe"></ion-icon>
+     </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">ID: ${manager.employeeId}</li>
+        <li class="list-group-item">Email: <span id="email"><a href="mailto:${manager.email}">${manager.email}</a></span></li>
+        <li class="list-group-item">Office Number: ${manager.officeNumber}</li>
+      </ul>
       </div>
     `;
     html.push(managerHtml);
@@ -22,14 +23,15 @@ const generateTeam = (team) => {
   const generateEngineer = (engineer) => {
     console.log(engineer);
     let engineerHtml = `
-    <div class= "card" style="width: 180px;">
-    <div class="card-header"engineer.name} </br>
-    <i class="fas" fa-mug-hot"></i>Manager</div>
-    <ul class="list-group-flush">
-    <li class="list-group-item">ID:${engineer.employeeId}</li>
-    <li class="list-group-item">Email:<span id="email"><a href="mailto:${engineer.email}">${engineer.email}</li>
-    <li class="list-group-item">Github Profile:<a target="_blank" href="https://github.com/${engineer.githubUsername}">${engineer.githubUsername}</a></li>
-    <ul>
+    <div class= "card" style="width: 18rem;">
+     <div class="card-header"> ${engineer.name} </br>
+       <i class="fas"></i>Engineer <ion-icon name="build"></ion-icon>
+    </div>
+     <ul class="list-group list-group-flush">
+      <li class="list-group-item">ID: ${engineer.employeeId}</li>
+      <li class="list-group-item">Email: <span id="email"><a href="mailto:${engineer.email}">${engineer.email}</a></span></li>
+      <li class="list-group-item">Github Profile: <a target="_blank" href="https://github.com/${engineer.githubUsername}">${engineer.githubUsername}</a></li>
+     </ul>
     </div>
   `;
     html.push(engineerHtml);
@@ -37,14 +39,14 @@ const generateTeam = (team) => {
   const generateIntern = (intern) => {
     console.log(intern);
     internHtml = `
-    <div class= "card" style="width: 180px;">
-    <div class="card-header"engineer.name} </br>
-    <i class="fas" fa-mug-hot"></i>Manager</div>
-    <ul class="list-group-flush">
-    <li class="list-group-item">ID:${intern.employeeId}</li>
-    <li class="list-group-item">Email:<span id="email"><a href="mailto:${intern.email}">${intern.email}</li>
-    <li class="list-group-item">School:${intern.university}</li>
-    <ul>
+    <div class= "card" style="width: 18rem;">
+     <div class="card-header"> ${intern.name} </br>
+      <i class="fas"></i>Intern <ion-icon name="school"></ion-icon></div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item">ID: ${intern.employeeId}</li>
+       <li class="list-group-item">Email: <span id="email"><a href="mailto:${intern.email}">${intern.email}</a></span></li>
+       <li class="list-group-item">School: ${intern.university}</li>
+     </ul>
     </div>
   `;
     html.push(internHtml);
@@ -82,6 +84,7 @@ module.exports = (team) => {
   </header>
 
   <main> ${generateTeam(team)}</main>
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>
 </html>
   `;

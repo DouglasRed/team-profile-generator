@@ -1,0 +1,41 @@
+* {
+  box-sizing: content-box;
+}
+
+header {
+  color: #eee;
+  background-color: rgba(241, 72, 72, 0.9);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin: 15px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 15px;
+  padding: 10px;
+  width: auto;
+}
+
+card-header {
+  color: #eee;
+  background-color: rgba(43, 43, 241, 0.507);
+}
+
+list-group {
+  color: #333;
+}
+
+svg {
+  color: #333;
+}
