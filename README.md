@@ -27,7 +27,7 @@ In order to download my code you will have to clone my repo and install inquire 
 
 This will help any small team list their employees for visibility purposes. Working virtually can take its toll on us including forgetting about the people that work with us.
 
-![Alt text]("./lib/assests/images/team-profile.jpg")
+![Alt text]("./lib/assets/images/team-profile.jpg)
 
 ## Contact Me
 
@@ -37,4 +37,4 @@ Contact me at douglasred63@yahoo.com for any questions you have about my project
 
 ## View My Video
 
-View my video of this project here! https://github.com/DouglasRed/team-profile-generator/blob/main/team-generator-profile.mp4 (Please note: you may have to download it)
+View my video of this project here! https://github.com/DouglasRed/team-profile-generator/blob/main/team-generator-profile.mp4 (Please note: you may have to download this 5 minute video)
