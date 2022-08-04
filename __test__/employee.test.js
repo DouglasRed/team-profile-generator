@@ -3,7 +3,7 @@ const employee = new Employee("Douglas", "101074", "douglasred63@yahoo.com");
 
 test("creates an employee object", () => {
   expect(employee.name).toBe("Douglas");
-  expect(employee.employeeID).toBe("101074");
+  expect(employee.employeeId).toBe("101074");
   expect(employee.email).toBe("douglasred63@yahoo.com");
 });
 
